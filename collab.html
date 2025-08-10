@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zuya – Home</title>
+  <title>Zuya – Collab</title>
 
   <link rel="icon" href="assets/logo.png" type="image/png" />
   <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200..700&family=Underdog&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css" />
   </head>
 <body>
-  <div id="loader">
+    <div id="loader">
     <img src="assets/logo.png" alt="Zuya Logo">
   </div>
   <header>
@@ -39,21 +39,51 @@
       </nav>      
   </header>
 
-  <main>
-    <h1>WELCOME TO ZUYAS SITE</h1>
-    <p>Where everything Zuya related is gathered in one place!</p>
+ <main class="collab-page">
+    <h1>SO YOU WANT TO COLLAB WITH ME?</h1>
     
-    <p class="newest-song">NEWEST RELEASE:</p>
-    <section class="album-covers">
-        <div class="album">
-          <img src="assets/dance.png" alt="Cover Art 1">
-          <p class="song-title">DANCE! - Zuya, AfterDRK, n0xarii</p>
-        </div>
-      </section>
-      <a href="https://distrokid.com/hyperfollow/afterdrkandzuya/dance-2" class="cta" target="_blank">LISTEN NOW</a>
-  </main>
 
-  <footer class="social-footer">
+    <section class="collab-info">
+      <h1>Beat Licensing</h1>
+      <p>
+        $15 - MP3 License
+      </p>
+      <p>
+        $25 - WAV License (better quality)
+      </p>
+       <p>
+        $45 - Stems + Project File (for full control)
+      </p>
+       <p>
+        $70 - Custom/Exclusive Beat (100% yours)
+      </p>
+
+      
+        <h1>Mixing Service (Per Person / 1 Track)</h1>
+        <p>
+        $20 - Basic Mix (clean balance, EQ, levels)
+        </p>
+        <p>
+        $35 - Pro Mix (effects, automation, fine-tuned sound)
+        </p>
+
+
+      <h1>Collabs</h1> 
+      <p>
+        FREE - Feature, No Promo
+      </p>
+      <p>
+        $25 - Feature, With Promo
+      </p>
+      <p>
+        $35 - Main Artist, No Promo
+      </p>
+      <p>
+        $45 - Main Artist, With Promo  
+      </p>
+      </section>
+
+  <footer class="social-footer-collab">
     <a href="https://www.tiktok.com/@zuyaofficialexe" target="_blank"><i class="fab fa-tiktok"></i></a>
     <a href="https://www.instagram.com/zuyaofficialexe" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://www.youtube.com/@zuyaofficialexe" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -63,10 +93,10 @@
 
   <div class="copyright">
     © 2025 ZUYA. All rights reserved.
-  </div>
+  </div>  
   <div class="made-by">
     Made by Samiejaa
-  </div>  
+  </div>
 
 
   <script src="script.js"></script>
@@ -74,11 +104,11 @@
   window.addEventListener("load", () => {
     const loader = document.getElementById("loader");
 
-    // Show for 0.5 seconds, then fade out
+    // Show for 0.2 seconds, then fade out
     setTimeout(() => {
       loader.classList.add("fade-out");
-    }, 700);
+    }, 200);
   });
-</script>
+  </script>
 </body>
 </html>
