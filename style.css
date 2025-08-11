@@ -104,6 +104,20 @@ body {
     flex-shrink: 0;
   }
   
+    .oc-pics img {
+    max-width: 400px;
+    max-height: 400px;
+    border: 3px solid purple;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgb(80, 0, 80);
+  }
+
+  .oc-pics {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
   
   main h1 {
     font-weight: 700;
